@@ -18,9 +18,9 @@ def index():
 	posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
 	posts.sort(key=lambda item: item['date'], reverse=True)
 	with open('settings.txt', encoding='utf8') as config:
-    	data = config.read()
-    	settings = json.loads(data)
-        return render_template('index.html', posts=posts, bigheader=True)
+		data = config.read()
+		settings = json.loads(data)
+		return render_template('index.html', posts=posts, bigheader=True)
  
 @app.route('/posts/<name>/')
 def post(name):
@@ -30,6 +30,6 @@ def post(name):
  
 if __name__ == "__main__":
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
-    	freezer.freeze()
+		freezer.freeze()
 	else:
-    	app.run(host='127.0.0.1', port=8000, debug=True)
+		app.run(host='127.0.0.1', port=8000, debug=True)
