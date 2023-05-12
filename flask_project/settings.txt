@@ -1,0 +1,16 @@
+{"site_url":"http://localhost:8000",
+"site_title": "Юрченко Диана, QA-инженер",
+"description": "Юрченко Диана - портфолио и резюме",
+"keywords": "Тестирование, QA, Python, PostgreSQL, Git, Postman",
+"name": "Юрченко Диана",
+"tag1":"QA-инженер",
+"sect1":"Главная",
+"sect2":"Резюме",
+"sect3":"Портфолио",
+"sect4":"Блог",
+"sect5":"Контакты",
+"telegram":"https://t.me/diosmiosdios",
+"linkendin":"https://facebook.com/john.doe",
+"vk":"https://vk.com/diosmiosdios",
+"email":"denya198@gmail.com"
+}
